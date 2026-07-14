@@ -14,7 +14,6 @@ docs/
 tests/
 AGENT.md
 analise_financeira.py
-analise_pandas.py
 requirements.txt
 transacoes.csv
 relatorio.json

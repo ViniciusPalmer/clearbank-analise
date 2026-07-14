@@ -5,6 +5,7 @@ Projeto final de análise de transações financeiras com Python. O notebook pro
 ## Arquivos da entrega
 
 - `desafio-final.ipynb`: notebook autossuficiente, com código e saídas salvas.
+- `analise_pandas.py`: extra opcional que confere os resultados com pandas.
 - `grafico.png`: gráfico opcional de saldo mensal.
 - `README.md`: instruções de execução.
 
@@ -25,6 +26,17 @@ Para gerar novamente o gráfico opcional em ambiente local, instale matplotlib:
 ## O que é gerado pelo notebook
 
 O notebook lê `transacoes.csv`, exibe o relatório formatado no output, gera `relatorio.json` durante a execução e salva `grafico.png` pela célula opcional.
+
+## Extra opcional — conferência com pandas
+
+Após executar o notebook e gerar `relatorio.json`, instale pandas e execute:
+
+```bash
+python -m pip install pandas matplotlib
+python analise_pandas.py
+```
+
+O script lê o CSV com `pd.read_csv`, agrega os dados com `groupby`, compara o resultado com a solução nativa e informa se os valores conferem.
 
 ## Regras da análise
 
