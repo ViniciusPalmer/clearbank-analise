@@ -22,6 +22,8 @@ Para gerar novamente o gráfico opcional em ambiente local, instale matplotlib:
    python -m pip install matplotlib
    ```
 
+## O que é gerado pelo notebook
+
 O notebook lê `transacoes.csv`, exibe o relatório formatado no output, gera `relatorio.json` durante a execução e salva `grafico.png` pela célula opcional.
 
 ## Regras da análise
